@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   source-generator.h                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alelievr <alelievr@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tebajema <tebajema@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created  2016/12/22 19:07:07 by alelievr          #+#    #+#             */
-/*   Updated  2016/12/23 17:41:49 by alelievr         ###   ########.fr       */
+/*   Created: 2016/12/22 19:07:07 by alelievr          #+#    #+#             */
+/*   Updated: 2024/11/11 16:30:19 by tebajema         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@
 #include <unistd.h>
 #include <dirent.h>
 #include <fcntl.h>
+#include <string.h>
 
 #include <iostream>
 #include <sstream>

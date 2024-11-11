@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   source-generator.cpp                               :+:      :+:    :+:   */
+/*   source_generator.cpp                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alelievr <alelievr@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tebajema <tebajema@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created  2016/12/22 16:20:34 by alelievr          #+#    #+#             */
-//   Updated: 2019/11/19 14:42:29 by juligonz         ###   ########.fr       //
+/*   Created: 2016/12/22 16:20:34 by alelievr          #+#    #+#             */
+/*   Updated: 2024/11/11 16:30:21 by tebajema         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "source-generator.h"
+#include "../inc/source-generator.h"
 
 static std::list< intmax_t >		generateRandomNumbers(size_t num, intmax_t mask, bool sup = false)
 {
